@@ -1,10 +1,6 @@
 import json
 import os
-test_eugin="Eugin-PC";
 
-eugin=os.getenv('TEST_EUGIN')
-rds_host = os.getenv('RDS_HOST')
-rds_port = os.getenv('RDS_PORT')
 def lambda_handler(event, context):
     return {
         "statusCode": 200,
