@@ -9,6 +9,11 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
+            },
             "message": "flowbridge-sbx-url-read deployed from GitHub Actions"
         })
     }
