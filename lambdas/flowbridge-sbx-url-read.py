@@ -14,6 +14,6 @@ def lambda_handler(event, context):
                 "Access-Control-Allow-Headers": "Content-Type",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
             },
-            "message": "flowbridge-sbx-url-read deployed from GitHub Actions"
+            "message": "flowbridge-sbx-url-read deployed from  Actions"
         })
     }
